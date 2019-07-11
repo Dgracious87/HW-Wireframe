@@ -34,13 +34,6 @@ section {
     position: relative;
 }
 
-.test:hover {
-background: palevioletred;
-}
-
-
-.test:focus {
-    background: blueviolet }
 
 P {
     clear: both; 
