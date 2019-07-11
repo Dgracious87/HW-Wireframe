@@ -24,7 +24,6 @@ nav {
     padding: 25px;
     height: 30%;
     margin-bottom: 20px;
-
 }
 
 section {
@@ -34,6 +33,14 @@ section {
     height: 60%;
     position: relative;
 }
+
+.test:hover {
+background: palevioletred;
+}
+
+
+.test:focus {
+    background: blueviolet }
 
 P {
     clear: both; 
@@ -50,7 +57,8 @@ article {
 }
 
     
-h1 {    text-align: left;
+h1 {
+    text-align: left;
     color: #777;
     background: #ebebeb;
         width: 60px; 
@@ -58,7 +66,8 @@ h1 {    text-align: left;
         margin: bottom;
          }
 
-aside {background: #ebebeb;
+aside {
+    background: #ebebeb;
     height: 10x;
     width: 50%;
     margin: bottom;
@@ -70,6 +79,7 @@ footer {
     background: #ebebeb;
     height: 60px;
     clear: both;
-
-
 }
+
+
+
