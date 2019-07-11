@@ -1,16 +1,21 @@
 body  {
   background-color: #777;
-  width: 960px;
+  /* width: 960px; */
   font-size: 18px;    
 
 }
 
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
 header  {
     background: #ebebeb;
     padding:25px;
     height: 30%;
-    margin: right;
-
+    margin: 20px auto;
+    
+    
     }
 
 
@@ -18,16 +23,16 @@ nav {
     background:#ebebeb;
     padding: 25px;
     height: 30%;
-    float: left;
-    border: 1px;
+    margin-bottom: 20px;
+
 }
 
 section {
-    clear: both;
     background: #ebebeb;
-    float: right;
+    float: left;
     width: 30%;
     height: 60%;
+    position: relative;
 }
 
 P {
@@ -53,15 +58,18 @@ h1 {    text-align: left;
         margin: bottom;
          }
 
-Aside {background: #ebebeb;
+aside {background: #ebebeb;
     height: 10x;
     width: 50%;
     margin: bottom;
+    float: left;
 
 }
 
-footer {background: #ebebeb;
+footer {
+    background: #ebebeb;
     height: 60px;
+    clear: both;
 
 
 }
